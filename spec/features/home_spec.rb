@@ -5,7 +5,7 @@ feature "home", :type => :feature do
   it "should pass" do
     visit root_path
     
-    expect(page).to have_content ("home")
+    expect(page).to have_content ("test")
   end 
  
 end 

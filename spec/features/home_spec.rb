@@ -7,13 +7,5 @@ feature "home", :type => :feature do
     
     expect(page).to have_content ("home")
   end 
-
-
-  it "should fail" do
-    visit root_path
-    
-    expect(page).to have_content ("home")
-  end 
-
-  
+ 
 end 

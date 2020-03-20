@@ -12,7 +12,7 @@ feature "home", :type => :feature do
   it "should fail" do
     visit root_path
     
-    expect(page).to have_content ("game")
+    expect(page).to have_content ("home")
   end 
 
   
